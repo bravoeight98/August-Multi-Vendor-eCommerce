@@ -48,7 +48,8 @@ sentry_sdk.init(
 
 DEBUG = os.getenv('DEBUG')
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', os.getenv('PIP')]
+#ALLOWED_HOSTS = ['127.0.0.1', 'localhost', os.getenv('PIP')]
+ALLOWED_HOSTS = ['*']
 
 DEFAULT_APPS = [
     'django.contrib.admin',
