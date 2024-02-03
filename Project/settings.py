@@ -47,7 +47,7 @@ sentry_sdk.init(
 )
 
 #DEBUG = os.getenv('DEBUG')
-DEBUG = True
+DEBUG = False
 
 #ALLOWED_HOSTS = ['127.0.0.1', 'localhost', os.getenv('PIP')]
 ALLOWED_HOSTS = ['*']
